@@ -40,7 +40,7 @@ This repository provides a Python-based solution for solving CAPTCHAs using the 
 
 ## How to Use
 
-### Step 1: Download and Configure the CaptchaSonic Extension
+### Step 1: Run this code
 The script downloads the CaptchaSonic extension and configures it with your API key.
 
 ```python
