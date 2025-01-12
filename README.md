@@ -1,11 +1,11 @@
-# How to solve CAPTCHA Using Playwright and CaptchaSonic
+# How to solve CAPTCHA Using pyppeteer and CaptchaSonic
 
-This repository provides a Python-based solution for solving CAPTCHAs using the CaptchaSonic Chrome extension and Playwright.
+This repository provides a Python-based solution for solving CAPTCHAs using the CaptchaSonic Chrome extension and pyppeteer.
 
 ## Features
 - Automates CAPTCHA solving for testing or research purposes.
 - Integrates the CaptchaSonic Chrome extension to handle CAPTCHA solving.
-- Uses Playwright for browser automation.
+- Uses pyppeteer for browser automation.
 
 ---
 
@@ -14,21 +14,21 @@ This repository provides a Python-based solution for solving CAPTCHAs using the 
 ### Tools and Libraries
 
 1. **Python**: Ensure Python 3.7 or later is installed on your system.
-2. **Playwright**: Install Playwright for Python.
+2. **pyppeteer**: Install pyppeteer for Python.
 3. **CaptchaSonic API Key**: Get an API key from [CaptchaSonic](https://github.com/Captcha-Sonic).
 4. **Dependencies**: Install the required Python libraries listed in `requirements.txt`.
 
 ### Installation
 
-1. Install Playwright:
+1. Install pyppeteer:
    ```bash
-   pip install playwright
+   pip install pyppeteer
    python -m playwright install
    ```
 
 2. Install additional dependencies:
    ```bash
-   pip install python-dotenv
+   pip install python-dotenv pyppeteer
    ```
 
 3. Create a `.env` file in the project directory:
