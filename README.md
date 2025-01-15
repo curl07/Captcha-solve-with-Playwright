@@ -31,7 +31,7 @@ This repository provides a Python-based solution for solving CAPTCHAs using the 
 1. Install pyppeteer:
    ```bash
    pip install pyppeteer
-   python -m playwright install
+   
    ```
 
 2. Install additional dependencies:
